@@ -1,0 +1,112 @@
+{
+  "project": "LinkVault – PG Platform Client",
+  "account": {
+    "email": "pgsaathi0489@gmail.com",
+    "password": "Aa@123456",
+    "name": "Amit Sharma",
+    "role": "Project Manager"
+  },
+  "workspace": {
+    "id": "6ab80a8a7c4df263c36a9104",
+    "name": "PG Platform – Client Project",
+    "description": "PG Platform is a SaaS-based property and tenant management platform being developed for managing PG properties, rooms, beds, tenants, payments, complaints, staff and operational activities.",
+    "category": "client_project"
+  },
+  "members": [
+    {
+      "name": "Neha Verma",
+      "email": "neha.verma@pgplatform.example",
+      "role": "manager",
+      "title": "Product Manager",
+      "dept": "Product"
+    },
+    {
+      "name": "Priya Singh",
+      "email": "priya.singh@pgplatform.example",
+      "role": "admin",
+      "title": "HR Manager",
+      "dept": "HR & Talent"
+    },
+    {
+      "name": "Rahul Mehta",
+      "email": "rahul.mehta@pgplatform.example",
+      "role": "manager",
+      "title": "Team Lead",
+      "dept": "Engineering"
+    },
+    {
+      "name": "Arjun Kapoor",
+      "email": "arjun.kapoor@pgplatform.example",
+      "role": "member",
+      "title": "Senior Developer",
+      "dept": "Engineering"
+    },
+    {
+      "name": "Rohit Kumar",
+      "email": "rohit.kumar@pgplatform.example",
+      "role": "member",
+      "title": "Junior Developer",
+      "dept": "Engineering"
+    },
+    {
+      "name": "Sneha Gupta",
+      "email": "sneha.gupta@pgplatform.example",
+      "role": "member",
+      "title": "Junior Developer",
+      "dept": "Engineering"
+    },
+    {
+      "name": "Anjali Jain",
+      "email": "anjali.jain@pgplatform.example",
+      "role": "member",
+      "title": "UI/UX Designer",
+      "dept": "Design"
+    },
+    {
+      "name": "Vikash Yadav",
+      "email": "vikash.yadav@pgplatform.example",
+      "role": "member",
+      "title": "QA Engineer",
+      "dept": "QA"
+    },
+    {
+      "name": "Karan Malhotra",
+      "email": "karan.malhotra@pgplatform.example",
+      "role": "member",
+      "title": "DevOps Engineer",
+      "dept": "DevOps & Infra"
+    },
+    {
+      "name": "Suresh Patel",
+      "email": "suresh.patel@pgtechnologies.example",
+      "role": "viewer",
+      "title": "Client Representative",
+      "dept": "Client Stakeholder"
+    }
+  ],
+  "topicsCount": 19,
+  "topics": [
+    "01 Project Overview",
+    "02 Client Requirements",
+    "03 Product Management",
+    "04 UI UX Design",
+    "05 Frontend Development",
+    "06 Backend Development",
+    "07 Database",
+    "08 QA & Testing",
+    "09 DevOps & Deployment",
+    "10 HR & Recruitment",
+    "11 Team Management",
+    "12 Meetings",
+    "13 Client Communication",
+    "14 Technical Documentation",
+    "15 Project Tasks",
+    "16 Bugs & Issues",
+    "17 Product Roadmap",
+    "18 Security",
+    "19 Project Reports"
+  ],
+  "itemsCount": 27,
+  "templatesCount": 9,
+  "seededAt": "2026-09-27T07:20:23.115Z"
+}
