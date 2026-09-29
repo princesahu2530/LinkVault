@@ -55,6 +55,17 @@ export function createApp(): Express {
   // General Rate Limiter
   app.use('/api', generalLimiter);
 
+  // Root welcome / health ping
+  app.get('/', (req, res) => {
+    res.json({
+      success: true,
+      message: '🚀 LinkVault API is running smoothly',
+      version: '1.0.0',
+      endpoints: '/api/v1',
+      documentation: '/api/v1/health'
+    });
+  });
+
   // API Versioning Mounts
   app.use('/api/v1', apiRouter);
   app.use('/api', apiRouter);
