@@ -32,6 +32,7 @@ export async function connectDatabase(): Promise<typeof mongoose> {
           fs.mkdirSync(dbDir, { recursive: true });
         }
 
+        // @ts-ignore
         const { MongoMemoryServer } = await import('mongodb-memory-server');
         memoryServer = await MongoMemoryServer.create({
           instance: {
@@ -47,6 +48,7 @@ export async function connectDatabase(): Promise<typeof mongoose> {
       } catch (memErr: any) {
         console.warn('⚠️ Could not start persistent storage engine, falling back to dynamic instance:', memErr.message);
         try {
+          // @ts-ignore
           const { MongoMemoryServer } = await import('mongodb-memory-server');
           memoryServer = await MongoMemoryServer.create();
           const memoryUri = memoryServer.getUri('linkvault');
